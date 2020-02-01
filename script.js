@@ -11,12 +11,11 @@ function generatePassword() {
   var passwordLength = parseInt(prompt("How many characters for password length?"));
   if (passwordLength<8 || passwordLength>128) {
     alert("Please enter a value between 8 and 128 characters.")
-    writePassword();
   }
   //Make sure the value for password lenght is a number
-  if (isNaN(passwordLength)) {
-    alert("Please enter only a number between 8 and 128.")
-    writePassword();
+   while (isNaN(passwordLength)) {
+    alert("Please enter only a number between 8 and 128.");
+    passwordLength=parseInt(prompt("How many characters for password length?"));
   }
 
   console.log(passwordLength);

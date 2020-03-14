@@ -1,14 +1,17 @@
-# password
-Task: Generate random password (w/ user specified criteria)
+# Password Generator
+Generate random password (w/ user specified criteria)
 
 User specified criteria (to be selected randomly):
-	how many characters
-	capital / lowercase letters
-	include / exclude special characters(symbols)
+
+*	number of characters
+*	capital / lowercase letters
+*	include / exclude special characters
 
 
+## Usage
 
-Criteria is decided by
+![2020-03-14 18 24 08](https://user-images.githubusercontent.com/46901242/76692208-25104a80-6621-11ea-9a4b-4f451b0a50c8.gif)
+
 
 	Prompt: what is the length?
 		Return: number value
@@ -24,3 +27,18 @@ Criteria is decided by
 		Numbers? Y/N
 			Confirm (Y) / Cancel (N)
 			* exclude spaces/any other possibly entries
+
+## Features coming soon
+
+* Progress bar showing how secure the selections are
+* Encryption
+* Password organization / keychain
+
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## Developed by
+[Brittni Lighthizer](https://github.com/brittnilighthizer)
